@@ -45,6 +45,7 @@ JisshuBot.start()
 loop = asyncio.get_event_loop()
 
 pyrogram.utils.MIN_CHANNEL_ID = -1002294570357
+SUPPORT_GROUP = -1002294570357  # Replace with the actual group ID
 
 async def Jisshu_start():
     print('\n')
