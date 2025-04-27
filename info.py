@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '19593445'))
 API_HASH = environ.get('API_HASH', 'f78a8ae025c9131d3cc57d9ca0fbbc30')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7854640189:AAEAsWf2qOXTXMNgJV8zsRPpxtDGEUg8_aQ')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7854640189:AAEGm3x9NwOLqn1hH49bXH7-Z8yXZhM5RxA')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7799707747').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/SR_movies_admin") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002545659721'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/SR_MOVIES_GROUP')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/SPIDEY_MOVIE_GROUP')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002339047323').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
